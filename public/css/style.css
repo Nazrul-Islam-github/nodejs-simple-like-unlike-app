@@ -1,0 +1,99 @@
+.container{
+    width: 15.3rem;
+    margin: 2rem auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+}
+h1,p,h2,h3.h4,h5,h6,span{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.container textarea{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2),0px 0px 50px rgba(0, 0, 0, 0.2) ;
+    display: block;
+    min-height: 10rem;
+    max-height: 10rem;
+    border: 0;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    max-width: 14rem;
+    min-width: 14rem;
+    padding: .4rem .6rem;
+}
+.container button{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    right: 0;
+}
+button:hover{
+    background-color: #FFAD33;
+    color: #f5f5f5;
+}
+
+
+/* style post card */
+.card-container{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem .4rem;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+
+}
+.card{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2),0px 0px 50px rgba(0, 0, 0, 0.2) ;
+    min-width: 10rem;
+    width: 15rem;
+    padding: .8rem .4rem;
+    margin: .9rem .8rem;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+}
+.card p{
+    line-height: 1.3rem;
+}
+
+
+.fa-heart{
+    font-size: 1.7rem;
+    color: #fb3958;
+    cursor: pointer;
+    /* pointer-events: none; */
+}
+
+.action{
+    padding: .7rem 0rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.action a{
+    margin-right: .4rem;
+}

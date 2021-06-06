@@ -1,0 +1,31 @@
+{{#if post}}
+ <div class="card-container">
+{{#each post}}
+
+
+    <div class="card">
+        <h3 class="author">{{user.name}}</h3>
+        <p class="card-content">{{post}}</p>
+         <div class="action">
+             {{!-- <form action="/like/{{_id}}" method="post"> --}}
+             
+
+                  <i id="{{_id}}" user="{{../checkUserLogin}}" onclick="likeCount(event)" class="{{ShowLike ../likePost _id}}"></i>
+                  
+               
+             {{!-- </form> --}}
+             <span class="like">{{like.length}}likes</span>
+
+        </div>
+    </div>
+
+{{else}}
+{{/each}}
+</div>
+{{/if}}
+
+<h1 id="demo"></h1>
+
+ <a href="/logout" class="nav-link"><h1>Logout</h1></a></li>
+
+ 
